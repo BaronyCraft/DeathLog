@@ -1,0 +1,9 @@
+# DeathLog config
+#
+# Warning: Essentials has a config option called death-messages. If that option
+# is set to false, no other plugin will have a chance to read those messages.
+# If you want DeathLog to log death causes, you will need to set that option
+# to true in the Essentials config file. If you still don't want death log
+# messages to be sent, set suppressDeathMessages to true as well.
+
+suppressDeathMessages: false

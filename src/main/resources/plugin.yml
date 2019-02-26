@@ -1,0 +1,17 @@
+name: DeathLog
+author: BaronyCraft
+description: Group multiverse worlds to worldgroups between players can move, remembering their position in each group
+version: 1.0.0
+api-version: 1.13
+main: de.guntram.bukkit.DeathLog.Main
+commands:
+  deathlog:
+    description: Show your own deathlog, or that of another player
+    usage: deathlog <player>
+permissions:
+  deathlog.self:
+    description: See your own deathlog
+    default: true
+  deathlog.other:
+    description: See other people's deathlogs
+    default: op
